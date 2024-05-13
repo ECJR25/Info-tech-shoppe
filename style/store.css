@@ -1,0 +1,107 @@
+
+
+.section-p1{
+    padding: 40px 80px;
+
+}
+#product1{
+    text-align: center;
+}
+#product1 .headtext{
+    text-align: left;
+}
+ #product1 .headtext h2{
+    color: goldenrod;
+ }
+ #product1 .headtext p{
+    color: whitesmoke;
+ }
+ #product1 .headtext .razer{
+    color: #44d62c;
+ }
+
+#product1 .prod-container{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+
+
+#product1 .prod{
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid black;
+    box-shadow: 20px 20px 30px rgba(0,0,0,0.02);
+    margin: 15px 0;
+    transition: 0.2s ease;
+    position: relative;
+    background-color: transparent;
+}
+#product1 .prod img{
+    width: 100%;
+    min-height: 250px;
+
+}
+#product1 .prod hover{ 
+    box-shadow: 20px 20px 30px rgba(0,0,0,0.06);
+
+}
+#product1 .prod .description{
+
+    text-align: start;
+    padding: 10px 0;
+   
+}
+#product1 .prod .description span{
+    padding-top: 1000px;
+    color: #606064;
+    font-size: 12px;
+}
+#product1 .prod .description h5{
+    padding-top: 15px;
+    color: goldenrod;
+    font-size: 15px;
+}
+#product1 .prod .description p{
+    padding-top: 15px;
+    font-size: 13px;
+    color: white;
+
+}
+#product1 .prod .description .price{
+    padding-top: 35px;
+    font-size: 15px;
+    color: goldenrod;
+}
+#product1 .prod .cart{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    background-color: goldenrod;
+    font-weight: 500;
+    color: white;
+    border: 1px solid goldenrod;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+
+}
+
+/*------cart------*/
+#cart-icon{
+    font-size: 1.8rem;
+    cursor: pointer;
+    color: rgba(243,181,25);
+margin-left: -30px;
+}
+/*------cart icon in smaller picture------*/
+@media(max-width: 500px){
+    #cart-icon{
+        margin-right: -300px;
+
+    }
+}

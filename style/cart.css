@@ -1,0 +1,226 @@
+
+main .center, .center
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+main .center .div, .center .h1-div
+{
+    max-width: 1200px;
+    width: 100%;
+
+}
+
+.h1-div h1
+{  
+    color: goldenrod;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+.center .div
+{
+    display: grid;
+    grid-template-columns: 1fr 350px;
+    gap:30px;
+}
+
+.left-con h1
+{
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    border: 1px solid goldenrod;
+
+}
+
+/* Style for table head */
+.styled-table th {
+    background-color: goldenrod;
+    text-align: left;
+    padding: 12px 8px;
+    color: #000;
+    font-weight: 600;
+    font-size: 15px;
+    
+}
+
+/* Style for table body */
+.styled-table td {
+    border-bottom: 1px solid goldenrod;
+    padding: 8px;
+    color: #fff;
+    font-size: 15px;
+    
+}
+
+/* Alternate row color */
+.styled-table tbody tr:nth-child(even) {
+    background-color: transparent;
+
+}
+
+/* Style for delete cell */
+.styled-table td:last-child {
+    text-align: center;
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+    transition: 0.3s ease;
+
+}
+
+/* Hover effect for delete cell */
+.styled-table td:last-child:hover {
+    background-color: transparent;
+    
+}
+
+.styled-table .img-con
+{
+    height: 90px;
+}
+
+.styled-table td i
+{
+    font-size: 10px;
+    background: goldenrod;
+    border-radius: 50px;
+    padding: 6px 8px;
+    
+}
+
+.right-con .total-con
+{
+    border: 1px solid goldenrod;
+    
+}
+
+.right-con .total-con h1
+{
+    font-weight: 500;
+    font-size: 22px;
+    color: black;
+    background: goldenrod;
+    padding: 6px 12px;
+    border-bottom: 1px solid goldenrod;
+}
+
+.right-con .total-con .price-div
+{
+    padding: 15px 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px   ;
+
+}
+
+.right-con .total-con .text
+{
+    padding-bottom: 6px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid goldenrod;
+    color: #fff;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-con .total-con .text div, .right-con .total-con .text span
+{
+    padding: 0 12px;
+}
+
+.right-con .total-con .proceed-btn
+{
+    width: 100%;
+    padding: 22px 18px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    border: 1px solid goldenrod;
+    background: goldenrod;
+    border-radius: 6px;
+    color: black;
+    transition: 0.3s ease;
+    font-size: 18px;
+}
+
+.right-con .total-con .proceed-btn:hover
+{
+    opacity: 0.8;
+}
+
+.styled-table .qnty-td
+{
+    display: flex;
+    align-items: center;
+}
+
+.styled-table .qnty-td .minus-btn, .styled-table .qnty-td .add-btn
+{
+    padding: 6px 12px;
+    border: 1px solid goldenrod;
+    cursor: pointer;
+}
+
+.styled-table .qnty-td .qnty-js
+{
+    padding: 6px 12px;
+    border: 1px solid goldenrod;
+    border-left: none;
+    border-right: none;
+}
+
+.styled-table .qnty-td .qnty-js input
+{
+    width: 20px;
+    border: none;
+    text-align: center;
+    outline: none;
+}
+
+
+.voucher-div .flex{
+    display: flex;
+}
+
+.voucher-div button{
+    padding: 12px 18px;
+    background: rgb(251, 216, 75);
+    border: 1px solid a;
+}
+
+.voucher-div .voucher{
+    border: 1px solid black;
+    border-left: none;
+    padding-left: 5px;
+    width: 250px;
+    outline: none;
+}
+
+
+.center .no-item h2
+{
+    font-size: 32px;
+    font-weight: 500;
+    color: goldenrod;
+    margin-bottom: 14px;
+}
+
+.center .no-item button
+{
+    font-size: 16px;
+    letter-spacing: 2px;
+    background: goldenrod;
+    padding: 12px 32px;
+    border: 1px solid rgb(251, 216, 75);
+    border-radius: 50px;
+}

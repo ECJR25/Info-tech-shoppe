@@ -1,0 +1,99 @@
+/*-----Footer-----*/
+.footer{
+    background-color: black;
+    padding: 70px 0;
+
+}
+.footer-container{
+    align-items: right;
+
+    max-width: 1170px;
+    margin: auto;
+    margin-top: -30px;
+    margin-bottom: -50px;
+       
+}
+ul{
+    list-style: none;
+}
+.footer-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-col{
+    text-align: center;
+
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 18px;
+    color: #fff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    background-color: goldenrod;
+    height: 2px;
+    box-sizing: border-box;
+    width: 100px;
+    
+}
+.footer-col ul li{
+    margin-bottom: 10px;
+    
+    
+}
+.footer-col ul li a{
+    
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #fff;
+    font-weight: 300;
+    color: #bbb;
+    display: block;
+    transition: all .3s ease;   
+ 
+}
+.footer-col ul li p{
+
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #bbb;
+    font-weight: 300;
+}
+ .footer-col ul li a:hover{
+    color: #fff;
+    padding-left: 10px;
+    
+ }
+ .footer hr{
+    border: none;
+    background: #b5b5b5;
+    height: 1px;
+    margin: 20 0px;
+}
+.copyright{
+    text-align: center;
+}
+/*-----Footer on smaller screen-----*/
+ @media(max-width: 700px){
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+
+    }
+ }
+ @media(max-width: 500px){
+    .footer-col{
+        width: 100%;
+
+    }
+ }
